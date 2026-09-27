@@ -92,14 +92,12 @@ Below are key visuals from the Fabric pipeline setup:
 
 ---
 
-## 📊 Power BI Gold Analytics
+📊 Power BI Gold Analytics
+The /Reports folder contains:
 
-The `/Reports` folder contains:
+Gold Sales Validation Report (PBIX) — built on top of the Gold Lakehouse tables and connected to the Lakehouse SQL endpoint for clean, validated analytics.
 
-- **Gold Sales Validation Report (PBIX)**  
-- Report screenshots  
-
-The report connects to the Lakehouse SQL endpoint and uses Gold tables for clean, validated analytics.
+Report Screenshots — visual summaries of category‑level sales, revenue trends, and validation matrices.
 
 ---
 
