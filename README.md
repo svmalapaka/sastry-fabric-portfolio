@@ -29,22 +29,26 @@ This project uses a structured **Medallion architecture** to build reliable anal
 
 ### 📸 Lakehouse Visuals
 
-Below are key visuals from the Fabric Lakehouse setup:
+Below are key visuals from the Fabric Lakehouse setup, showing the workspace structure, medallion layers, and initial Lakehouse state.
 
 ---
 
 #### 🗂️ Workspace Overview
+This screenshot shows the Fabric workspace containing Lakehouse documentation, notebooks, and pipeline assets.
 ![Workspace Overview](Screenshots/workspace_overview.png)
 
 ---
 
 #### 📁 Lakehouse Explorer
+This view displays the Lakehouse Files section with Bronze, Silver, and Gold CSVs organized in the medallion structure.
 ![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
 
 ---
 
 #### 🧱 Lakehouse Empty View
+This is the initial Lakehouse state before ingestion, showing the default “Add data in lake mode” prompt.
 ![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
+
 
 
 ---
