@@ -35,7 +35,11 @@ Workspace Overview
 
 ![Workspace Overview](Screenshots/workspace_overview.png)
 
+Lakehouse Explorer
+
 ![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
+
+Lakehouse Empty View
 
 ![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
 
