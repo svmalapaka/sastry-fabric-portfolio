@@ -38,16 +38,26 @@ Below are key visuals from the Fabric Lakehouse setup:
 
 ---
 
-## 🔧 Pipelines (Medallion Architecture)
+## 🔧 Medallion Pipelines (Bronze → Silver → Gold)
 
-The `/Pipelines` folder includes visuals and notes for:
+The `/Pipelines` folder contains screenshots and notes for all automated Fabric pipelines used in this project:
 
-- Bronze Pipeline — ingestion  
-- Silver Pipeline — transformation  
-- Gold Pipeline — aggregation  
-- Medallion Pipeline — full end‑to‑end automation  
+- **Bronze Pipeline** — raw ingestion from source files  
+- **Silver Pipeline** — cleaning, standardization, and schema alignment  
+- **Gold Pipeline** — business‑ready aggregations for reporting  
+- **Medallion Pipeline** — unified end‑to‑end automation across all layers  
 
-Each pipeline is validated and aligned with Fabric best practices.
+Each pipeline is validated with successful run history and follows Fabric best practices for modular, reusable, and scalable data engineering workflows.
+
+### 📸 Pipeline Visuals
+
+Below are key visuals from the Fabric pipeline setup:
+
+![Bronze Pipeline](Screenshots/bronze_pipeline.png)
+![Silver Pipeline](Screenshots/silver_pipeline.png)
+![Gold Pipeline](Screenshots/gold_pipeline.png)
+![Medallion Pipeline](Screenshots/medallion_pipeline.png)
+
 
 ---
 
