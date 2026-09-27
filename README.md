@@ -32,7 +32,9 @@ This project uses a structured **Medallion architecture** to build reliable anal
 Below are key visuals from the Fabric Lakehouse setup:
 
 ![Workspace Overview](Screenshots/workspace_overview.png)
+
 ![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
+
 ![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
 
 
