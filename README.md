@@ -30,6 +30,7 @@ This project uses a structured **Medallion architecture** to build reliable anal
 ### 📸 Visuals
 
 Below are key visuals from the Fabric Lakehouse setup:
+Workspace Overview
 
 ![Workspace Overview](Screenshots/workspace_overview.png)
 
