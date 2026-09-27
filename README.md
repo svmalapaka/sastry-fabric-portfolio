@@ -107,6 +107,11 @@ The report connects to the Lakehouse SQL endpoint and uses Gold tables for clean
 
 The `/Screenshots` folder includes workspace, lakehouse, and pipeline visuals that support documentation and portfolio presentation.
 
+![Gold Sales Validation Report](Screenshots/powerbi_gold_validation.png)
+![Matrix View](Screenshots/powerbi_matrix_view.png)
+![Category Breakdown](Screenshots/powerbi_category_breakdown.png)
+
+
 ---
 
 ## ✔ Summary
