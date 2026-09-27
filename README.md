@@ -27,20 +27,23 @@ The `/Lakehouse` folder contains screenshots and notes for:
 
 This project uses a structured **Medallion architecture** to build reliable analytical datasets.
 
-### 📸 Visuals
+### 📸 Lakehouse Visuals
 
 Below are key visuals from the Fabric Lakehouse setup:
 
-Workspace Overview
+---
 
+#### 🗂️ Workspace Overview
 ![Workspace Overview](Screenshots/workspace_overview.png)
 
-Lakehouse Explorer
+---
 
+#### 📁 Lakehouse Explorer
 ![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
 
-Lakehouse Empty View
+---
 
+#### 🧱 Lakehouse Empty View
 ![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
 
 
