@@ -68,10 +68,26 @@ Each pipeline is validated with successful run history and follows Fabric best p
 
 Below are key visuals from the Fabric pipeline setup:
 
+---
+
+#### 🥉 Bronze Pipeline
 ![Bronze Pipeline](Screenshots/bronze_pipeline.png)
+
+---
+
+#### 🥈 Silver Pipeline
 ![Silver Pipeline](Screenshots/silver_pipeline.png)
+
+---
+
+#### 🥇 Gold Pipeline
 ![Gold Pipeline](Screenshots/gold_pipeline.png)
+
+---
+
+#### 🔄 Medallion Pipeline (Unified Flow)
 ![Medallion Pipeline](Screenshots/medallion_pipeline.png)
+
 
 
 ---
