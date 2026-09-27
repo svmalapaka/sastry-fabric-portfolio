@@ -105,10 +105,13 @@ Report Screenshots — visual summaries of category‑level sales, revenue tre
 
 The `/Screenshots` folder includes workspace, lakehouse, and pipeline visuals that support documentation and portfolio presentation.
 
+🧩 Gold Sales Validation Report
 ![Gold Sales Validation Report](Screenshots/powerbi_gold_validation.png)
 
+📈 Matrix View
 ![Matrix View](Screenshots/powerbi_matrix_view.png)
 
+📊 Category Breakdown
 ![Category Breakdown](Screenshots/powerbi_category_breakdown.png)
 
 
