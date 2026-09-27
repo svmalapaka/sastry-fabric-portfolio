@@ -20,12 +20,21 @@ These notebooks describe the workspace structure, lakehouse configuration, pipel
 
 The `/Lakehouse` folder contains screenshots and notes for:
 
-- Bronze tables (raw ingested data)  
-- Silver tables (cleaned and standardized)  
-- Gold tables (aggregated analytics)  
-- SQL endpoint views  
+- **Bronze tables** — raw ingested data  
+- **Silver tables** — cleaned and standardized datasets  
+- **Gold tables** — aggregated analytics for reporting  
+- **SQL endpoint views** — query-ready layer for Power BI  
 
-This project uses a structured medallion approach to build reliable analytical datasets.
+This project uses a structured **Medallion architecture** to build reliable analytical datasets.
+
+### 📸 Visuals
+
+Below are key visuals from the Fabric Lakehouse setup:
+
+![Workspace Overview](Screenshots/workspace_overview.png)
+![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
+![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
+
 
 ---
 
