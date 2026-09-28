@@ -123,21 +123,20 @@ dbo.gold_hr_employee_kpi_summary
 📁 Gold Folder Structure
 Your Gold folder contains:
 
-Code
 Gold/
- ├── gold_transformations_Notebook.ipynb
- ├── README_Gold.md
- ├── Gold_Loaded_Silver_Table.png
- ├── Gold_KPI_Aggregations.png
- ├── Gold_Attrition_Department.png
- ├── Gold_Attrition_JobRole.png
- ├── Gold_Attrition_Gender.png
- ├── Gold_Attrition_Education.png
- ├── Gold_Attrition_Overtime.png
- ├── Gold_Attrition_MaritalStatus.png
- ├── Gold_Attrition_JobSatisfaction.png
- ├── Gold_Attrition_EnvironmentSatisfaction.png
- └── Gold_Folder_View.png
+- gold_transformations_Notebook.ipynb
+- README_Gold.md
+- Gold_Loaded_Silver_Table.png
+- Gold_KPI_Aggregations.png
+- Gold_Attrition_Department.png
+- Gold_Attrition_JobRole.png
+- Gold_Attrition_Gender.png
+- Gold_Attrition_Education.png
+- Gold_Attrition_Overtime.png
+- Gold_Attrition_MaritalStatus.png
+- Gold_Attrition_JobSatisfaction.png
+- Gold_Attrition_EnvironmentSatisfaction.png
+- Gold_Folder_View.png
 These screenshots document each transformation stage and KPI output.
 
 🖼️ Screenshots Included
