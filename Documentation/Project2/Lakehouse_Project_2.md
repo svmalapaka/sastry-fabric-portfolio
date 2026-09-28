@@ -6,12 +6,14 @@ This document describes the Lakehouse structure for Portfolio Project 2, includi
 
 ## 📁 Lakehouse Layout
 
-Lakehouse/ Files/
+Lakehouse
+
+Files/
 - Bronze/
 - Silver/
 - Gold/
 
-└── Tables/
+Tables/
 - BronzeTables
 -  SilverTables
 - GoldTables
