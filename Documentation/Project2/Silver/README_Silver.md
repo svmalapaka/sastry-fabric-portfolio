@@ -24,7 +24,7 @@ The Silver layer refines raw HR data from the Bronze layer (`HR_Employee_Data.cs
 ![Silver HR Employee Data Preview](Silver_HR_Employee_Data_Preview.png)
 
 ## Notebook Reference
-`02_silver_transformations.ipynb`
+`silver_transformations_Notebook.ipynb`
 
 ## Notes
 This layer ensures schema consistency and prepares data for Gold-level business KPIs.
