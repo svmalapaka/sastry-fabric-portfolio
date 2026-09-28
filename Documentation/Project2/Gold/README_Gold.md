@@ -125,9 +125,13 @@ Gold/
 - gold_transformations_Notebook.ipynb
 - README_Gold.md
 - Gold_Loaded_Silver_Table.png
-- ![Loaded Silver Table](Gold_Loaded_Silver_Table.png)
+  ![Loaded Silver Table](Gold_Loaded_Silver_Table.png)
+  
 - Gold_KPI_Aggregations.png
+ ![KPI Aggregations](Gold_KPI_Aggregations.png)
+
 - Gold_Attrition_Department.png
+![Attrition by Department](Gold_Attrition_Department.png)  
 - Gold_Attrition_JobRole.png
 - Gold_Attrition_Gender.png
 - Gold_Attrition_Education.png
