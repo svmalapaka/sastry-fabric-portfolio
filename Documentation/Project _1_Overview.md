@@ -46,7 +46,7 @@ The project is designed to be simple, clean, and easy for recruiters and enginee
 
 Fabric-Portfolio/
 Documentation/
-Project_1_Overview.md
+-Project_1_Overview.md
 │   ├── Lakehouse_Project_Structure.md
 │   ├── Pipelines_Documentation.md
 │   ├── Power_BI_Report_Documentation.md
