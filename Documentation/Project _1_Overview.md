@@ -47,23 +47,26 @@ The project is designed to be simple, clean, and easy for recruiters and enginee
 Fabric-Portfolio/
 │
 ├── Documentation/
-
 │   ├── Project_1_Overview.md
 │   ├── Lakehouse_Project_Structure.md
 │   ├── Pipelines_Documentation.md
 │   ├── Power_BI_Report_Documentation.md
 │   ├── Fabric_Shortcuts.md
 │   ├── Project_Documentation.md
-│   └── Portfolio_Project_2/   ← future project folder
+│   │
+│   └── Project2/                ← future project folder
+│       ├── Project_2_Overview.md
+│       ├── Lakehouse_Project_2.md
+│       ├── Pipelines_Project_2.md
+│       └── PowerBI_Project_2.md
 │
 ├── Lakehouse/
 ├── Pipelines/
 ├── Reports/
 └── Screenshots/
 
-Code
-
-This structure ensures clarity and scalability as you add more portfolio projects.
+```markdown
+This structure ensures clarity and scalability as you add more portfolio projects
 
 ---
 
