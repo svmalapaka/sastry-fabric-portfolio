@@ -23,19 +23,16 @@ Tables/
 
 ## 🥉 Bronze Layer — Raw Data Ingestion
 
-The Bronze layer stores the raw HR dataset exactly as uploaded, without any transformations.  
-For Project 2, the file **HR_Employee_Data.csv** was uploaded into:
-
-`Project2_Lakehouse → Files → Bronze`
-
-### Key Points
 - Raw CSV ingestion  
-- No transformations applied  
-- Schema validated successfully  
-- Data preview confirmed
+- No transformations  
+- Stored in `/Files/Bronze/`  
+- Dataset: `HR_Employee_Data.csv`  
+- Purpose: Load raw HR employee data into the Lakehouse for downstream Silver transformations  
 
-### Screenshot
+### 📸 Bronze Screenshot
 ![Bronze HR Employee Data Preview](../../Screenshots/Project2/Bronze/Bronze_HR_Employee_Data_Preview.png)
+
+---
 
 
 
