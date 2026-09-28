@@ -99,27 +99,25 @@ Delta
 Code
 Files/Gold/Gold_HR_Employee_KPIs
 SQL Table
-Code
-dbo.gold_hr_employee_kpis
+-dbo.gold_hr_employee_kpis
 📊 KPI Summary Table
 A single‑row summary table is generated with:
 
-TotalEmployees
+-TotalEmployees
 
-AttritionCount
+-AttritionCount
 
-AttritionRate
+-AttritionRate
 
-AvgMonthlyIncome
+-AvgMonthlyIncome
 
-AvgAge
+-AvgAge
 
-AvgYearsAtCompany
+-AvgYearsAtCompany
 
 Published as:
+-dbo.gold_hr_employee_kpi_summary
 
-Code
-dbo.gold_hr_employee_kpi_summary
 📁 Gold Folder Structure
 Your Gold folder contains:
 
