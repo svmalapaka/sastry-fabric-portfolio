@@ -38,6 +38,7 @@ For Project 2, the file **HR_Employee_Data.csv** was uploaded into:
 ![Bronze HR Employee Data Preview](../../Screenshots/Project2/Bronze/Bronze_HR_Employee_Data_Preview.png)
 
 
+
 ## 🥈 Silver Layer
 
 - Cleaned and standardized datasets  
