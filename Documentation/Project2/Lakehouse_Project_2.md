@@ -36,14 +36,21 @@ Tables/
 
 
 
-## 🥈 Silver Layer
+## 🥈 Silver Layer — Data Cleaning & Standardization
 
-- Cleaned and standardized datasets  
-- Column renaming  
-- Data type corrections  
-- Stored in `/Files/Silver/`  
+- Source: Bronze layer (`HR_Employee_Data.csv`)
+- Apply column standardization  
+- Convert data types (dates, integers, booleans)  
+- Normalize categorical values (Gender, Attrition, Overtime)  
+- Remove nulls and inconsistent values  
+- Store cleaned data in `/Files/Silver/`  
+- Output Table: `Silver_HR_Employee_Data`
+
+### 📸 Silver Screenshot
+![Silver HR Employee Data Preview](../../Screenshots/Project2/Silver/Silver_HR_Employee_Data_Preview.png)
 
 ---
+
 
 ## 🥇 Gold Layer
 
