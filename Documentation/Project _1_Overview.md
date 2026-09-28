@@ -48,22 +48,22 @@ Fabric-Portfolio/
 Documentation
 
 - Project_1_Overview.md
-│   ├── Lakehouse_Project_Structure.md
-│   ├── Pipelines_Documentation.md
-│   ├── Power_BI_Report_Documentation.md
-│   ├── Fabric_Shortcuts.md
-│   ├── Project_Documentation.md
-│   │
-│   └── Project2/                ← future project folder
-│       ├── Project_2_Overview.md
-│       ├── Lakehouse_Project_2.md
-│       ├── Pipelines_Project_2.md
-│       └── PowerBI_Project_2.md
-│
-├── Lakehouse/
-├── Pipelines/
-├── Reports/
-└── Screenshots/
+- Lakehouse_Project_Structure.md
+- Pipelines_Documentation.md
+- Power_BI_Report_Documentation.md
+- Fabric_Shortcuts.md
+- Project_Documentation.md
+  
+ Project2/                ← future project folder
+- Project_2_Overview.md
+- Lakehouse_Project_2.md
+- Pipelines_Project_2.md
+- PowerBI_Project_2.md
+
+- Lakehouse/
+- Pipelines/
+- Reports/
+- Screenshots/
 
 ```markdown
 This structure ensures clarity and scalability as you add more portfolio projects
