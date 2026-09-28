@@ -74,12 +74,12 @@ This structure ensures clarity and scalability as you add more portfolio project
 
 Project 1 includes the following markdown files:
 
-- **Lakehouse_Project_Structure.md**  
-- **Pipelines_Documentation.md**  
-- **Power_BI_Report_Documentation.md**  
-- **Fabric_Shortcuts.md**  
-- **Project_Documentation.md**  
-- **Portfolio_Project_1.md**  
+- Lakehouse_Project_Structure.md 
+- Pipelines_Documentation.md 
+- Power_BI_Report_Documentation.md
+- Fabric_Shortcuts.md 
+- Project_Documentation.md  
+- Portfolio_Project_1.md  
 
 Each file covers a specific part of the project.
 
