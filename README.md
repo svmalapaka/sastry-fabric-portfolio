@@ -4,15 +4,17 @@ This repository contains an end‑to‑end Microsoft Fabric portfolio project de
 
 ---
 
-## 📘 Documentation
+📘 Documentation  
+All project documentation is stored in the /Documentation folder:
 
-All project documentation is stored in the `/Documentation` folder:
+- Lakehouse_Project_Structure.md  
+- Pipelines_Documentation.md  
+- Power_BI_Report_Documentation.md  
+- Fabric_Shortcuts.md  
+- Project_Documentation.md  
+- Portfolio_Project_1.md  
 
-- **Fabric_Shortcuts_Notebook.ipynb**  
-- **Lakehouse_Documentation.ipynb**  
-- **Pipelines_Documentation.ipynb**
-
-These notebooks describe the workspace structure, lakehouse configuration, pipeline flows, and reporting architecture.
+These markdown files describe the workspace structure, lakehouse configuration, pipeline flows, reporting architecture, and overall project organization.
 
 ---
 
