@@ -45,8 +45,7 @@ The project is designed to be simple, clean, and easy for recruiters and enginee
 ## 📁 Repository Structure
 
 Fabric-Portfolio/
-│
-├── Documentation/
+Documentation/
 Project_1_Overview.md
 │   ├── Lakehouse_Project_Structure.md
 │   ├── Pipelines_Documentation.md
