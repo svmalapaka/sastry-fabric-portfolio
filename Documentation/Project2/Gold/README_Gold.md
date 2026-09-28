@@ -81,18 +81,18 @@ Environment Satisfaction
 The Gold table includes:
 
 Code
-employeeid
-department
-jobrole
-gender
-monthlyincome
-attrition
-yearsatcompany
-jobsatisfaction
-environmentsatisfaction
-maritalstatus
-education
-overtime
+- employeeid
+- department
+- jobrole
+- gender
+- monthlyincome
+- attrition
+- yearsatcompany
+- jobsatisfaction
+- environmentsatisfaction
+- maritalstatus
+- education
+- overtime
 This table is saved as:
 
 Delta
@@ -103,20 +103,20 @@ SQL Table
 📊 KPI Summary Table
 A single‑row summary table is generated with:
 
--TotalEmployees
+- TotalEmployees
 
--AttritionCount
+- AttritionCount
 
--AttritionRate
+- AttritionRate
 
--AvgMonthlyIncome
+- AvgMonthlyIncome
 
--AvgAge
+- AvgAge
 
--AvgYearsAtCompany
+- AvgYearsAtCompany
 
 Published as:
--dbo.gold_hr_employee_kpi_summary
+- dbo.gold_hr_employee_kpi_summary
 
 📁 Gold Folder Structure
 Your Gold folder contains:
