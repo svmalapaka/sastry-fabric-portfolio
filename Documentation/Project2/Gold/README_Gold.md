@@ -124,22 +124,37 @@ Your Gold folder contains:
 Gold/
 - gold_transformations_Notebook.ipynb
 - README_Gold.md
-- Loaded Silver Table
+- Loaded Silver Table.
   ![Loaded Silver Table](Gold_Loaded_Silver_Table.png)
   
-- Gold_KPI_Aggregations
+- Gold_KPI_Aggregations.
  ![KPI Aggregations](Gold_KPI_Aggregations.png)
 
 - Attrition By Department.
-![Attrition by Department](Gold_Attrition_Department.png)  
-- Gold_Attrition_JobRole.png
-- Gold_Attrition_Gender.png
-- Gold_Attrition_Education.png
-- Gold_Attrition_Overtime.png
-- Gold_Attrition_MaritalStatus.png
-- Gold_Attrition_JobSatisfaction.png
-- Gold_Attrition_EnvironmentSatisfaction.png
-- Gold_Folder_View.png
+![Attrition by Department](Gold_Attrition_Department.png)
+
+- Attrition JobRole.
+  ![Attrition by Job Role](Gold_Attrition_JobRole.png)
+  
+- Gold_Attrition_Gender.
+  ![Attrition by Gender](Gold_Attrition_Gender.png)
+  
+- Gold_Attrition_Education.
+  ![Attrition by Education](Gold_Attrition_Education.png)
+- Gold_Attrition_Overtime
+  ![Attrition by Overtime](Gold_Attrition_Overtime.png)
+  
+- Gold_Attrition_MaritalStatus
+![Attrition by Marital Status](Gold_Attrition_MaritalStatus.png)
+  
+- Gold_Attrition_JobSatisfaction
+![Attrition by Job Satisfaction](Gold_Attrition_JobSatisfaction.png)
+
+- Gold_Attrition_EnvironmentSatisfaction
+![Attrition by Environment Satisfaction](Gold_Attrition_EnvironmentSatisfaction.png)
+
+- Gold_Folder_View
+![Gold Folder View](Gold_Folder_View.png)
 These screenshots document each transformation stage and KPI output.
 
 🖼️ Screenshots Included
