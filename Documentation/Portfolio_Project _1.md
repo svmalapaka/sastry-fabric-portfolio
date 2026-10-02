@@ -66,11 +66,8 @@ Use relative paths for all images:
 
 ```markdown
 ![Bronze Pipeline](../Screenshots/bronze_pipeline.png)
-
 ![Silver Pipeline](../Screenshots/silver_pipeline.png)
-
 ![Gold Pipeline](../Screenshots/gold_pipeline.png)
-
 ![Power BI Gold Validation](../Screenshots/powerbi_gold_validation.png)
 
 ```
