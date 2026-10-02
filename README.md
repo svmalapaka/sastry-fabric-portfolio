@@ -1,11 +1,49 @@
-# Sastry Fabric Portfolio — Sales Lakehouse Project
+# 🧱 Sastry’s Microsoft Fabric Portfolio
 
-This repository contains an end‑to‑end Microsoft Fabric portfolio project demonstrating Lakehouse architecture, automated Medallion pipelines (Bronze/Silver/Gold), SQL endpoint integration, validated Gold analytics, and complete engineering documentation using Fabric notebooks.
+End‑to‑end Microsoft Fabric projects built during the 15‑day Fabric trial (Sep 17 – Oct 2, 2026), showcasing Lakehouse engineering, Medallion pipelines, Eventstream analytics, SQL endpoint integration, Power BI reporting, and complete documentation.
+
+This unified portfolio consolidates all work from both repositories:
+- **sastry-fabric-portfolio** (technical depth, visuals, documentation)
+- **fabric-portfolio** (project index, timeline, related repos)
 
 ---
 
-📘 Documentation  
-All project documentation is stored in the /Documentation folder:
+## 📁 Projects Overview
+
+| # | Project | Fabric Workloads | Status |
+|---|---------|------------------|--------|
+| 1 | **Portfolio Project 1 — Sales Lakehouse** | Lakehouse, Pipelines, SQL Endpoint, Power BI | ✅ Complete |
+| 2 | **Portfolio Project 2 — Real-Time Analytics (Bike Rentals)** | Eventstream, Eventhouse, KQL | 🟢 In Progress |
+| 3 | Medallion Architecture (Bronze → Silver → Gold) | Delta Tables, Notebooks | ✅ Complete |
+| 4 | Enterprise Power BI on Gold Layer | Semantic Model, Direct Lake | ✅ Complete |
+| 5 | Machine Learning Pipeline | Notebooks, MLflow | ✅ Complete |
+| 6 | External API Integration | Data Factory, Lakehouse | ✅ Complete |
+| 7 | Data Governance & Lineage | Purview, OneLake | ✅ Complete |
+| 8 | Data Activator Alerts | Activator, Real-Time Dashboard | 🔜 In Progress |
+| 9 | Direct Lake Mode + Power BI | Semantic Model, Direct Lake | 🟡 In Progress |
+| 10 | Full Platform CI/CD Pipeline | Git Integration, Deployment Pipelines | 🔜 Planned |
+
+---
+
+## 🗓️ Timeline
+
+- **Trial Start:** September 17, 2026  
+- **Trial End:** October 2, 2026  
+- **Workspace:** `Sastry-Fabric-Portfolio`  
+- **Portfolio Project 1:** Completed  
+- **Portfolio Project 2:** In Progress  
+
+---
+
+# 🏗️ Portfolio Project 1 — Sales Lakehouse
+
+This project demonstrates a complete Lakehouse + Medallion architecture with automated pipelines, SQL endpoint integration, and validated Power BI Gold analytics.
+
+---
+
+## 📘 Documentation (Markdown)
+
+Located in the `/Documentation` folder:
 
 - Lakehouse_Project_Structure.md  
 - Pipelines_Documentation.md  
@@ -14,122 +52,70 @@ All project documentation is stored in the /Documentation folder:
 - Project_Documentation.md  
 - Portfolio_Project_1.md  
 
-These markdown files describe the workspace structure, lakehouse configuration, pipeline flows, reporting architecture, and overall project organization.
+These files describe workspace setup, Lakehouse configuration, pipeline flows, reporting architecture, and project organization.
 
 ---
 
 ## 🏗️ Lakehouse Architecture
 
-The `/Lakehouse` folder contains screenshots and notes for:
+The `/Lakehouse` folder contains:
 
 - **Bronze tables** — raw ingested data  
 - **Silver tables** — cleaned and standardized datasets  
-- **Gold tables** — aggregated analytics for reporting  
+- **Gold tables** — aggregated analytics  
 - **SQL endpoint views** — query-ready layer for Power BI  
-
-This project uses a structured **Medallion architecture** to build reliable analytical datasets.
-
-### 📸 Lakehouse Visuals
-
-Below are key visuals from the Fabric Lakehouse setup, showing the workspace structure, medallion layers, and initial Lakehouse state.
-
----
-
-#### 🗂️ Workspace Overview
-This screenshot shows the Fabric workspace containing Lakehouse documentation, notebooks, and pipeline assets.
-![Workspace Overview](Screenshots/workspace_overview.png)
-
----
-
-#### 📁 Lakehouse Explorer
-This view displays the Lakehouse Files section with Bronze, Silver, and Gold CSVs organized in the medallion structure.
-![Lakehouse Explorer](Screenshots/lakehouse_explorer.png)
-
----
-
-#### 🧱 Lakehouse Empty View
-This is the initial Lakehouse state before ingestion, showing the default “Add data in lake mode” prompt.
-![Lakehouse Empty View](Screenshots/lakehouse_empty.png)
-
-
 
 ---
 
 ## 🔧 Medallion Pipelines (Bronze → Silver → Gold)
 
-The `/Pipelines` folder contains screenshots and notes for all automated Fabric pipelines used in this project:
+The `/Pipelines` folder includes:
 
-- **Bronze Pipeline** — raw ingestion from source files  
-- **Silver Pipeline** — cleaning, standardization, and schema alignment  
-- **Gold Pipeline** — business‑ready aggregations for reporting  
-- **Medallion Pipeline** — unified end‑to‑end automation across all layers  
+- **Bronze Pipeline** — ingestion  
+- **Silver Pipeline** — cleaning + standardization  
+- **Gold Pipeline** — business-ready aggregations  
+- **Medallion Pipeline** — unified end-to-end automation  
 
-Each pipeline is validated with successful run history and follows Fabric best practices for modular, reusable, and scalable data engineering workflows.
-
-### 📸 Pipeline Visuals
-
-Below are key visuals from the Fabric pipeline setup:
+Each pipeline follows Fabric best practices for modular, reusable, and scalable data engineering workflows.
 
 ---
 
-#### 🥉 Bronze Pipeline
-![Bronze Pipeline](Screenshots/bronze_pipeline.png)
+## 📊 Power BI Gold Analytics
+
+The `/Reports` folder contains:
+
+- **Gold Sales Validation Report (PBIX)**  
+- Category breakdowns  
+- Revenue trends  
+- Validation matrices  
+
+These reports connect directly to the Lakehouse SQL endpoint for clean, validated analytics.
 
 ---
 
-#### 🥈 Silver Pipeline
-![Silver Pipeline](Screenshots/silver_pipeline.png)
+# 🔗 Related Repos
+
+- **Power BI 30-Day Journey**  
+- **Fabric Terminology Hub** *(coming soon)*  
+- **Fabric Monitoring & Throttling Patterns**  
+- **Fabric License Portal**  
+- **Power BI Fabric Journey**
 
 ---
 
-#### 🥇 Gold Pipeline
-![Gold Pipeline](Screenshots/gold_pipeline.png)
+# ✔ Summary
 
----
-
-#### 🔄 Medallion Pipeline (Unified Flow)
-![Medallion Pipeline](Screenshots/medallion_pipeline.png)
-
-
-
----
-
-📊 Power BI Gold Analytics
-The /Reports folder contains:
-
-Gold Sales Validation Report (PBIX) — built on top of the Gold Lakehouse tables and connected to the Lakehouse SQL endpoint for clean, validated analytics.
-
-Report Screenshots — visual summaries of category‑level sales, revenue trends, and validation matrices.
-
----
-
-## 🖼️ Screenshots
-
-The `/Screenshots` folder includes workspace, lakehouse, and pipeline visuals that support documentation and portfolio presentation.
-
-🧩 Gold Sales Validation Report
-![Gold Sales Validation Report](Screenshots/powerbi_gold_validation.png)
-
-📈 Matrix View
-![Matrix View](Screenshots/powerbi_matrix_view.png)
-
-📊 Category Breakdown
-![Category Breakdown](Screenshots/powerbi_category_breakdown.png)
-
-
----
-
-## ✔ Summary
-
-This repository represents **Portfolio Project #1** for Microsoft Fabric, showcasing:
+This unified repository represents Sastry’s complete Microsoft Fabric portfolio, combining:
 
 - Lakehouse engineering  
 - Medallion pipelines  
 - SQL endpoint integration  
 - Power BI Gold analytics  
-- Full documentation notebooks  
-- Clean GitHub structure  
+- Real-time Eventstream analytics  
+- ML pipelines  
+- Governance + Purview  
+- CI/CD planning  
+- Full documentation + screenshots  
 
 More Fabric projects will be added as the portfolio expands.
 
----
